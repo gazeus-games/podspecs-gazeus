@@ -10,6 +10,6 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/WebViewFramewor
 s.ios.deployment_target = '8.0'
 s.ios.vendored_frameworks = 'WebViewFramework.framework'
 s.ios.resource = 'WebViewFrameworkBundle.bundle'
-s.dependency 'AppEngine', '<= 1.4.8'
+s.dependency 'AppEngine'
 s.framework = 'AdSupport'
 end
