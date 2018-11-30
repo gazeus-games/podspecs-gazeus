@@ -10,7 +10,7 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker
   s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'AnalyticsBroker.framework'
   s.framework = 'AdSupport'
-  s.dependency 'AppEngine', '1.4.21'
+  s.dependency 'AppEngine', '~> 1.4.21'
   s.dependency 'Adjust', '4.14.1'
   s.dependency 'Crashlytics', '3.10.5'
   s.dependency 'Fabric', '1.7.9'
