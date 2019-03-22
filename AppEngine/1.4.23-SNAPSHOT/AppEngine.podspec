@@ -6,7 +6,7 @@ s.version = '1.4.23-SNAPSHOT'
   s.author = {"Name" => "falves@gazeus.com"}
   s.license = {:type => "Comercial", :text => "Desenvolvido e licenciado pela Gazeus. Copyright 2017 Gazeus. Todos os direitos reservados."}
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.4.23/AppEngine.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.4.23/AppEngine-1553283739.zip' }
   s.xcconfig = {'LIBRARY_SEARCH_PATHS' => '"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"', 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'YES'}
   s.ios.deployment_target = "9.0"
   s.ios.vendored_frameworks = "AppEngine.framework"
