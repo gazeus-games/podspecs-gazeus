@@ -6,10 +6,11 @@ s.version = '5.0.1-SNAPSHOT'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1550513988.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1553797862.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
-  s.dependency 'AppEngine', '~> 1.4.22'
+  s.pod_target_xcconfig = { 'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)' }
+  s.dependency 'AppEngine', '>= 1.4.24'
   s.dependency 'AdColony', '3.3.5'
   s.dependency 'AppLovinSDK', '5.1.2'
   s.dependency 'ChartboostSDK', '7.2.0'
@@ -20,4 +21,6 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramewo
   s.dependency 'VungleSDK-iOS', '6.3.1'
   s.dependency 'mopub-ios-sdk/Core', '5.3.0'
   s.dependency 'G47ppH93', '0.7.12'
+  s.dependency 'Heyzap', '9.53.0'
+  s.dependency 'MMAdSDK', '6.8.0'
 end
