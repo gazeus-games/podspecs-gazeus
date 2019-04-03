@@ -6,7 +6,7 @@ s.version = '5.0.1-SNAPSHOT'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1553805367.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1554305355.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
   s.pod_target_xcconfig = { 'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)' }
@@ -15,7 +15,7 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramewo
   s.dependency 'AppLovinSDK', '5.1.2'
   s.dependency 'ChartboostSDK', '7.2.0'
   s.dependency 'FBAudienceNetwork', '5.0.0'
-  s.dependency 'Google-Mobile-Ads-SDK', '7.33.1'
+  s.dependency 'Google-Mobile-Ads-SDK', '7.42.2'
   s.dependency 'IronSourceSDK', '6.7.11.0'
   s.dependency 'UnityAds', '2.3.0'
   s.dependency 'VungleSDK-iOS', '6.3.1'
