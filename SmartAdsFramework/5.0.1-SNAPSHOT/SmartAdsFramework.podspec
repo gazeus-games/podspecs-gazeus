@@ -6,7 +6,7 @@ s.version = '5.0.1-SNAPSHOT'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1554472746.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.0.1/SmartAdsFramework-1554483962.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
   s.pod_target_xcconfig = { 'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)' }
