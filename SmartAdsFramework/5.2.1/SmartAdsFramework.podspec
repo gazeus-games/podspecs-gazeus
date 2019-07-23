@@ -19,5 +19,5 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramewo
   s.dependency "VungleSDK-iOS", "6.4.1"
   s.dependency "mopub-ios-sdk/Core", "5.6.0"
   s.dependency "MMAdSDK", "6.8.2"
-  s.dependency "InneractiveAdSDK", "7.2.3"
+  s.dependency "Fyber_Marketplace_SDK", "7.3.0"
 end
