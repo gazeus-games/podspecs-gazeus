@@ -2,16 +2,16 @@
 
 Pod::Spec.new do |s|
   s.name = 'SmartAdsFramework'
-s.version = '5.4.1'
+  s.version = '5.4.1'
   s.summary = 'SmartAds exibe banners standard e interstitial.'
   s.homepage = 'https://gitlab.gazeus.com/ios-libs/ios-framework-appengine'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/5.4.1/SmartAdsFramework-1572373762.zip' }
+  s.source = { http: 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/5.4.1/SmartAdsFramework-1572373762.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
-  s.dependency 'AppEngine', '>= 1.4.26'
+  s.dependency 'AppEngine', '>= 1.4.27'
   s.dependency 'AdColony', '4.1.1'
   s.dependency 'AppLovinSDK', '6.9.5'
   s.dependency 'FBAudienceNetwork', '5.5.1'
