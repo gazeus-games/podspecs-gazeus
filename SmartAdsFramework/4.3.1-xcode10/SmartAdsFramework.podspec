@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'SmartAdsFramework'
-s.version = '4.3.1-xcode10'
+s.version = '5.4.1-xcode10'
   s.summary = 'SmartAds exibe banners standard e interstitial.'
   s.homepage = 'https://gitlab.gazeus.com/ios-libs/ios-framework-appengine'
   s.author = { 'Name' => 'agomes@gazeus.com' }
