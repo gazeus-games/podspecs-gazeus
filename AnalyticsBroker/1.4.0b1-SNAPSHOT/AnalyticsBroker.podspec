@@ -8,7 +8,7 @@ s.version = '1.4.0b1-SNAPSHOT'
   s.author = { 'Name' => 'falves@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2020 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.4.0b1/AnalyticsBroker-1583784281.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.4.0b1/AnalyticsBroker-1583784870.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AnalyticsBroker.framework'
   s.framework = 'AdSupport'
