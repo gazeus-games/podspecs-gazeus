@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source = { http: 'https://s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.4.0/AnalyticsBroker-1583785522.zip' }
   s.ios.deployment_target = '9.0'
+  s.static_framework = true
   s.ios.vendored_frameworks = 'AnalyticsBroker.framework'
   s.framework = 'AdSupport'
   s.dependency 'AppEngine', '1.4.29-SNAPSHOT'
