@@ -12,7 +12,7 @@ s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AnalyticsBroker.framework'
   s.framework = 'AdSupport'
-  s.dependency 'AppEngine', '1.4.29-SNAPSHOT'
+  s.dependency 'AppEngine', '>= 1.4.29'
   s.dependency 'Adjust', '4.20.0'
   s.dependency 'Firebase/Analytics', '~> 6.0'
 end
