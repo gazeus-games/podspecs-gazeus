@@ -8,15 +8,17 @@ s.version = '5.4.2-SNAPSHOT'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.4.2/SmartAdsFramework-1573750020.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.4.2/SmartAdsFramework-1584723851.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
   s.dependency 'AppEngine', '>= 1.4.28'
   s.dependency 'AdColony', '4.1.1'
-  s.dependency 'AppLovinSDK', '6.9.5'
-  s.dependency 'FBAudienceNetwork', '5.5.1'
+  s.dependency 'AppLovinSDK', '6.11.5'
+  s.dependency 'FBAudienceNetwork', '5.7.1'
   s.dependency 'Fyber_Marketplace_SDK', '7.4.1'
-  s.dependency 'Google-Mobile-Ads-SDK', '7.51.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '7.57.0'
+  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'IronSourceSDK', '6.8.7.0'
   s.dependency 'MMAdSDK', '6.8.2'
   s.dependency 'mopub-ios-sdk/Core', '5.9.0'
