@@ -8,7 +8,7 @@ s.version = '5.5.0-DISMISS-FIX-SNAPSHOT'
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.5.0-DISMISS-FIX/SmartAdsFramework-1586294292.zip' }
+s.source = { :http => 'https://s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.5.0-DISMISS-FIX/SmartAdsFramework-1588011285.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework.framework'
   s.dependency 'AppEngine', '>= 1.4.26'
