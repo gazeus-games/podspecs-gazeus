@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.5.0-DISMISS-FIX/3035d4f4-2f8d-4239-8b89-24750c839cb4/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.5.0-DISMISS-FIX/30a72c8e-a8b8-4ef8-837f-011de6c6e2c9/SmartAdsFramework.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   s.dependency 'AppEngine', '>= 1.4.26'
