@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'falves@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2020 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.4.1-SNAPSHOT/ee466035-7ae5-409e-a296-bf991e40bbd9/AnalyticsBroker.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.4.1-SNAPSHOT/a6779743-9f43-4703-bef9-702987652133/AnalyticsBroker.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AnalyticsBroker/AnalyticsBroker.xcframework'
   s.framework = 'AdSupport'
