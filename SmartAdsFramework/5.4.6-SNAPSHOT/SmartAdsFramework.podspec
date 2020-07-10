@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.4.6-SNAPSHOT/0836b1df-fb18-4101-8fd2-dd3dea6e6c6e/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.4.6-SNAPSHOT/5a2e1660-8f29-4bdf-916e-041382a4ff8b/SmartAdsFramework.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   s.dependency 'AppEngine', '>=1.4.30'
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'FBAudienceNetwork', '5.9.0'
   s.dependency 'Fyber_Marketplace_SDK', '7.5.6'
   s.dependency 'Google-Mobile-Ads-SDK', '7.61.0'
+  s.dependency 'HyBid', '1.4.7'
   s.dependency 'IronSourceSDK', '6.17.0'
   s.dependency 'mopub-ios-sdk', '5.12.1'
   s.dependency 'UnityAds', '3.4.6'
