@@ -25,8 +25,4 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMobileAdsMediationFacebook', '~> 5.10.1.0'
   s.dependency 'GoogleMobileAdsMediationUnity', '~> 3.4.8.0'
   s.dependency 'GoogleMobileAdsMediationIronSource', '~> 6.18.0.2.0'
-  s.dependency 'MoPub-Applovin-Adapters', '~> 6.13.1.1'
-  s.dependency 'MoPub-FacebookAudienceNetwork-Adapters', '~> 5.10.1.1'
-  s.dependency 'MoPub-UnityAds-Adapters', '~> 3.4.8.0'
-  s.dependency 'MoPub-IronSource-Adapters', '~> 6.18.0.2.0'
 end
