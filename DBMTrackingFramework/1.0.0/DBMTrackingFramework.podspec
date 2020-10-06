@@ -11,6 +11,4 @@ s.ios.deployment_target = '8.0'
 s.ios.vendored_frameworks = 'DBMTrackingFramework.framework'
 s.ios.dependency 'LoggerFramework'
 s.ios.dependency 'ConnectReachabilityFramework'
-s.ios.dependency 'Fabric'
-s.ios.dependency 'Crashlytics'
 end
