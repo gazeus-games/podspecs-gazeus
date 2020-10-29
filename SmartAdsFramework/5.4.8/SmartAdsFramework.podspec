@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
-  s.dependency 'AppEngine', '>= 1.4.30'
+  s.dependency 'AppEngine', '>= 1.4.31'
   s.dependency 'AppLovinSDK', '6.13.0'
   s.dependency 'FBAudienceNetwork', '5.9.0'
   s.dependency 'Fyber_Marketplace_SDK', '7.5.6'
