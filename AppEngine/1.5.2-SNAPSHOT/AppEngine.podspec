@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'falves@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2017 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.5.2/7b86644c-57e8-49dd-b11c-c6fddf2fad1c/AppEngine.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.5.2/ba811843-6c02-4ee7-a1ac-eb08078885fd/AppEngine.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AppEngine/AppEngine.xcframework'
   s.dependency 'Firebase/Core', '6.29.0'
