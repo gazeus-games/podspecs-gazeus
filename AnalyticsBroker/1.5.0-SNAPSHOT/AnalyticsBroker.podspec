@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AnalyticsBroker/AnalyticsBroker.xcframework'
   s.framework = 'AdSupport'
-  s.dependency 'AppEngine', '1.5.1-SNAPSHOT'
+  s.dependency 'AppEngine', '> 1.5.1'
   s.dependency 'Adjust', '4.23.0'
   s.dependency 'Firebase/Analytics', '~> 6.0'
 end
