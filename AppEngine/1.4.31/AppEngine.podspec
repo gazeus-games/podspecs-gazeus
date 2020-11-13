@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Releases/1.4.31/bd57dad5-f361-4e78-bb7a-7d1bd0942799/AppEngine.zip' }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'AppEngine/AppEngine.xcframework'
-  s.dependency 'Firebase/Core', '~> 6.31.0'
-  s.dependency 'Firebase/Crashlytics', '~> 6.31.0'
+  s.dependency 'Firebase/Core', '~> 6'
+  s.dependency 'Firebase/Crashlytics', '~> 6'
 end
