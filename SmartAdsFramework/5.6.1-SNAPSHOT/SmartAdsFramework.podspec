@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   s.dependency 'AppEngine', '>= 1.5.3'
   s.dependency 'AppLovinSDK', '6.14.11'
-  s.dependency 'CriteoPublisherSdk', '4.1.0'
+  s.dependency 'CriteoPublisherSdk', '4.3.0'
   s.dependency 'FBAudienceNetwork', '6.2.1'
   s.dependency 'Fyber_Marketplace_SDK', '7.8.0'
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
