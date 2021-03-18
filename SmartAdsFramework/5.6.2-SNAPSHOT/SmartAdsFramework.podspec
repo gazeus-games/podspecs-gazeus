@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'FBAudienceNetwork', '6.2.1'
   s.dependency 'Fyber_Marketplace_SDK', '7.8.0'
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
-  s.dependency 'HyBid', '2.3.1'
+  s.dependency 'HyBid', '2.4.3'
   s.dependency 'IronSourceSDK', '7.0.4.0'
   s.dependency 'mopub-ios-sdk', '5.15.0'
   s.dependency 'UnityAds', '3.6.0'  
