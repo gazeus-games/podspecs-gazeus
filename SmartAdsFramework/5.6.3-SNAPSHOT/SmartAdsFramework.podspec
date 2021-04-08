@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinSDK', '10.0.0'  
   s.dependency 'CriteoPublisherSdk', '4.3.1'   
   s.dependency 'FBAudienceNetwork', '6.3.0'   
-  s.dependency 'Fyber_Marketplace_SDK', '7.8.2'   
+  s.dependency 'Fyber_Marketplace_SDK', '7.8.1'   
   s.dependency 'Google-Mobile-Ads-SDK', '8.2.0.1' 
   s.dependency 'IronSourceSDK', '7.1.2.0' 
   s.dependency 'HyBid', '2.4.3'   
