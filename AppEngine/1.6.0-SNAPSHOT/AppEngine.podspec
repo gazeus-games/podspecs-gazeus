@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AppEngine/AppEngine.xcframework'
   s.dependency 'Firebase/Core', '~> 7'
   s.dependency 'Firebase/Crashlytics', '~> 7'
+  s.dependency 'Firebase/RemoteConfig', '~> 7'
   s.dependency 'SSZipArchive', '2.2.3'
 end
