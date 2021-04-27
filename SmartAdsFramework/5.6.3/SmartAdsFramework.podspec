@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   s.dependency 'Google-Mobile-Ads-SDK', '8.2.0.1' 
   s.dependency 'IronSourceSDK', '7.1.2.0' 
   s.dependency 'HyBid', '2.4.3'   
-  s.dependency 'mopub-ios-sdk', '5.16.1'  
+  s.dependency 'mopub-ios-sdk', '5.16.2'  
   s.dependency 'UnityAds', '3.6.0'   
   s.dependency 'GoogleMobileAdsMediationAppLovin', '~> 10.0.0.0' 
   s.dependency 'GoogleMobileAdsMediationFacebook', '~> 6.3.0.0'  
   s.dependency 'GoogleMobileAdsMediationUnity', '~> 3.6.0.0'  
   s.dependency 'GoogleMobileAdsMediationIronSource', '~> 7.1.2.0'  
-  s.dependency 'GoogleMobileAdsMediationMoPub', '~> 5.16.1.0' 
+  s.dependency 'GoogleMobileAdsMediationMoPub', '~> 5.16.2.0' 
 end
