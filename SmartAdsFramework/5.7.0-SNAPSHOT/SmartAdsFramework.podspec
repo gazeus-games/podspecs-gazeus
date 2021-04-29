@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.7.0-SNAPSHOT/9fd0f794-13ef-4337-9a88-21e7a294c26f/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.7.0-SNAPSHOT/4a580c38-cd36-4180-a3a0-23504b95b14d/SmartAdsFramework.zip' }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
-  s.dependency 'AppEngine', '>= 1.5.4'
+  s.dependency 'AppEngine', '>= 1.5.3'
   s.dependency 'AppLovinSDK', '10.0.0'  
   s.dependency 'CriteoPublisherSdk', '4.3.1'   
   s.dependency 'FBAudienceNetwork', '6.3.0'   
