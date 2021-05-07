@@ -8,11 +8,13 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.6.4-SNAPSHOT/9b345bd6-0bd7-44c0-9701-b0292f535d0e/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.6.4-SNAPSHOT/038b57a7-176d-4d28-9f90-36345320abec/SmartAdsFramework.zip' }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
+  s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
+  # s.static_framework = true # LOCAL TEST
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/5.6.4-SNAPSHOT/038b57a7-176d-4d28-9f90-36345320abec/SmartAdsFramework.zip' }
   s.dependency 'AppEngine', '>= 1.5.3'
   s.dependency 'AppLovinSDK', '10.0.0'  
   s.dependency 'CriteoPublisherSdk', '4.3.1'   
@@ -21,11 +23,11 @@ Pod::Spec.new do |s|
   s.dependency 'Google-Mobile-Ads-SDK', '8.2.0.1' 
   s.dependency 'IronSourceSDK', '7.1.2.0' 
   s.dependency 'HyBid', '2.4.3'   
-  s.dependency 'mopub-ios-sdk', '5.16.1'  
+  s.dependency 'mopub-ios-sdk', '5.16.2'  
   s.dependency 'UnityAds', '3.6.0'   
   s.dependency 'GoogleMobileAdsMediationAppLovin', '~> 10.0.0.0' 
   s.dependency 'GoogleMobileAdsMediationFacebook', '~> 6.3.0.0'  
   s.dependency 'GoogleMobileAdsMediationUnity', '~> 3.6.0.0'  
   s.dependency 'GoogleMobileAdsMediationIronSource', '~> 7.1.2.0'  
-  s.dependency 'GoogleMobileAdsMediationMoPub', '~> 5.16.1.0' 
+  s.dependency 'GoogleMobileAdsMediationMoPub', '~> 5.16.2.0' 
 end
