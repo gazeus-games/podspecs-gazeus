@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/89ef5c90-2d18-4fc5-888d-1e962f024944/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/5092e8c8-59b6-4631-a9d9-5010e6ca70cf/SmartAdsFramework.zip' }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # s.static_framework = true # LOCAL TEST
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/89ef5c90-2d18-4fc5-888d-1e962f024944/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/5092e8c8-59b6-4631-a9d9-5010e6ca70cf/SmartAdsFramework.zip' }
   s.dependency 'AppEngine', '>= 1.5.3'
   s.dependency 'AppLovinSDK',                         '10.2.1'  # 11-05-21
   s.dependency 'CriteoPublisherSdk',                  '4.3.3'   # 11-05-21
