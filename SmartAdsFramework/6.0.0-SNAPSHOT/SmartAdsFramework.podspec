@@ -8,25 +8,25 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/c57a5514-f3cf-49fe-bd68-408871c9f28b/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/acddf59a-ecae-41af-ad84-0124ca9f6667/SmartAdsFramework.zip' }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # s.static_framework = true # LOCAL TEST
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/c57a5514-f3cf-49fe-bd68-408871c9f28b/SmartAdsFramework.zip' }
-  s.dependency 'AppEngine', '>= 1.5.3'
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.0.0-SNAPSHOT/acddf59a-ecae-41af-ad84-0124ca9f6667/SmartAdsFramework.zip' }
+  s.dependency 'AppEngine', 			      '1.6.0-RC1'
   s.dependency 'AppLovinSDK',                         '10.2.1'  # 11-05-21
   s.dependency 'CriteoPublisherSdk',                  '4.3.3'   # 11-05-21
   s.dependency 'FBAudienceNetwork',                   '6.4.1'   # 11-05-21
   s.dependency 'Fyber_Marketplace_SDK',               '7.8.5'   # 11-05-21
   s.dependency 'Google-Mobile-Ads-SDK',               '8.5.0'   # 11-05-21
-  s.dependency 'IronSourceSDK',                       '7.1.5.0' # 11-05-21
+  s.dependency 'IronSourceSDK',                       '7.1.6.1' # 07-06-21
   s.dependency 'HyBid',                               '2.4.7'   # 11-05-21
   s.dependency 'mopub-ios-sdk',                       '5.16.2'  # 11-05-21
   s.dependency 'UnityAds',                            '3.7.1'   # 11-05-21 
   s.dependency 'GoogleMobileAdsMediationAppLovin',    '~> 10.2.1.0' # 11-05-21
   s.dependency 'GoogleMobileAdsMediationFacebook',    '~> 6.4.1.0'  # 11-05-21
   s.dependency 'GoogleMobileAdsMediationUnity',       '~> 3.7.1.0'  # 11-05-21
-  s.dependency 'GoogleMobileAdsMediationIronSource',  '~> 7.1.5.0'  # 11-05-21
+  s.dependency 'GoogleMobileAdsMediationIronSource',  '~> 7.1.6.1'  # 07-06-21
   s.dependency 'GoogleMobileAdsMediationMoPub',       '~> 5.16.2.0' # 11-05-21
 end
