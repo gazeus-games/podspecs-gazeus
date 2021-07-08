@@ -8,11 +8,15 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'agomes@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2018 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/6.0.0/c2557e1a-486a-40fa-a3e4-f59077e38796/SmartAdsFramework.zip' }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
-  # s.static_framework = true # LOCAL TEST
+  # START
+  # RELEASE
+  # s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
+  # LOCAL TEST
+  s.static_framework = true
+  s.source_files = "SmartAdsFramework", "SmartAdsFramework/**/*.{h,m}"
+  # END
   s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/6.0.0/c2557e1a-486a-40fa-a3e4-f59077e38796/SmartAdsFramework.zip' }
   s.dependency 'AppEngine', 			      '>= 1.6.0'
   s.dependency 'AppLovinSDK',                         '10.2.1'  # 11-05-21
@@ -26,7 +30,7 @@ Pod::Spec.new do |s|
   s.dependency 'UnityAds',                            '3.7.1'   # 11-05-21 
   s.dependency 'GoogleMobileAdsMediationAppLovin',    '~> 10.2.1.0' # 11-05-21
   s.dependency 'GoogleMobileAdsMediationFacebook',    '~> 6.4.1.0'  # 11-05-21
-  s.dependency 'GoogleMobileAdsMediationUnity',       '~> 3.7.1.0'  # 11-05-21
-  s.dependency 'GoogleMobileAdsMediationIronSource',  '~> 7.1.6.1'  # 07-06-21
+#  s.dependency 'GoogleMobileAdsMediationUnity',       '~> 3.7.1.0'  # 11-05-21
+#  s.dependency 'GoogleMobileAdsMediationIronSource',  '~> 7.1.6.1'  # 07-06-21
   s.dependency 'GoogleMobileAdsMediationMoPub',       '~> 5.16.2.0' # 11-05-21
 end
