@@ -10,10 +10,9 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.1.0-SNAPSHOT/c8dc055f-90ac-4c35-9f5b-43ab74c5c67d/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.1.0-SNAPSHOT/c1ea66b2-8f7d-4c78-837c-39f1262a6cf8/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
   # s.static_framework = true # LOCAL TEST
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.1.0-SNAPSHOT/c8dc055f-90ac-4c35-9f5b-43ab74c5c67d/SmartAdsFramework.zip' }
   s.dependency 'AppEngine', '>= 1.6.0'
   s.dependency 'AppLovinSDK',            '10.3.4'  # 12-08-21
   s.dependency 'CriteoPublisherSdk',     '4.3.3'   # 11-05-21
