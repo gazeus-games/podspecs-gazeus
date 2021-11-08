@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license           = { type: 'Comercial',
                           text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2021 Gazeus. Todos os direitos reservados.' }
   s.platform          = :ios
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/CardLib/Snapshots/1.0.4-SNAPSHOT/28cc2f0a-4143-4c31-bc47-545cd43c333f/CardLib.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/CardLib/Snapshots/1.0.4-SNAPSHOT/00822ebd-71d9-464e-a6d7-ce12d8acdcc8/CardLib.zip' }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'CardLib/CardLib.xcframework'
 end
