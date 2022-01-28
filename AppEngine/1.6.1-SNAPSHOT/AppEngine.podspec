@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.6.1-SNAPSHOT/2af487fa-3ddf-4c54-870b-11af38ea9d3b/AppEngine.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.6.1-SNAPSHOT/05b03e5c-15f6-4d44-ba53-ba1ea9e6f228/AppEngine.zip' }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'AppEngine/AppEngine.xcframework'
   s.dependency 'Firebase/Core', '~> 8'
