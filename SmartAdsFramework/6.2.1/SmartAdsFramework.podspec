@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/6.2.1/635adc1c-1375-4f29-9a92-b8d4b346c9f3/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
   # s.static_framework = true # LOCAL TEST
-  s.dependency 'AppEngine'              ,'1.6.1-SNAPSHOT'
+  s.dependency 'AppEngine'              ,'>= 1.6.1'
   s.dependency 'AppLovinSDK'            ,'11.0.0'    # 08-12-21
   s.dependency 'CriteoPublisherSdk'     ,'4.5.0'     # 08-12-21
   s.dependency 'FBAudienceNetwork'      ,'6.9.0'     # 08-12-21
