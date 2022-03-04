@@ -18,13 +18,12 @@ Pod::Spec.new do |s|
 
   # DEBUG START
   # s.static_framework = true
-  #s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/0cb87b98-88ca-4786-947e-9c027d396cba/SmartAdsFramework.zip' }
-  #s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/0cb87b98-88ca-4786-947e-9c027d396cba/SmartAdsFramework.zip' }
+  # s.source = { git: '' }
+  # s.source_files = 'SmartAdsFramework', 'SmartAdsFramework/**/*.{h,m}'
   # DEBUG END
 
   s.dependency 'AppEngine', '>= 1.6.1'
   s.dependency 'AppLovinSDK'
-  s.dependency 'AmazonPublisherServicesSDK'
   s.dependency 'AppLovinMediationAdColonyAdapter'
   s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter'
   s.dependency 'AppLovinMediationChartboostAdapter'
@@ -39,7 +38,7 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationFacebookAdapter'
   s.dependency 'AppLovinMediationMintegralAdapter'
   s.dependency 'AppLovinMediationMyTargetAdapter'
-  #s.dependency 'AppLovinMediationNendAdapter'
+  s.dependency 'AppLovinMediationNendAdapter'
   s.dependency 'AppLovinMediationOguryPresageAdapter'
   s.dependency 'AppLovinMediationByteDanceAdapter'
   s.dependency 'AppLovinMediationSmaatoAdapter'
