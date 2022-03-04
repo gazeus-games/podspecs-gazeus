@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AppEngine', '>= 1.6.1'
   s.dependency 'AppLovinSDK'
+  s.dependency 'AmazonPublisherServicesSDK'
   s.dependency 'AppLovinMediationAdColonyAdapter'
   s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter'
   s.dependency 'AppLovinMediationChartboostAdapter'
