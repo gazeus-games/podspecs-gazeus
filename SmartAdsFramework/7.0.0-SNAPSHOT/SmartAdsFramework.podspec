@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/328c74aa-0646-4e33-ac21-aaeb6f3e8b95/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/51b1631d-2b35-4f4f-b9ac-7cec203665c8/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.dependency 'AppEngine', '>= 1.6.1'
   s.dependency 'AppLovinSDK', '11.2.1'
   s.dependency 'AppLovinMediationAdColonyAdapter'
-  s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter'
-  s.dependency 'AmazonPublisherServicesSDK'
+  # s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter' # Problemas pra gerar executavel
+  # s.dependency 'AmazonPublisherServicesSDK' # Problemas pra gerar executavel
   s.dependency 'AppLovinMediationChartboostAdapter'
   s.dependency 'AppLovinMediationCriteoAdapter'
   s.dependency 'AppLovinMediationFyberAdapter'
