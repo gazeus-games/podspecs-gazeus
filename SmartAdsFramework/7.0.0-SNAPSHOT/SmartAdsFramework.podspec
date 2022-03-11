@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/6521530e-65aa-4a9c-855d-eb5ee1307560/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/328c74aa-0646-4e33-ac21-aaeb6f3e8b95/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -35,13 +35,13 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationHyprMXAdapter'
   s.dependency 'AppLovinMediationInMobiAdapter'
   s.dependency 'AppLovinMediationIronSourceAdapter'
-  # s.dependency 'AppLovinMediationLineAdapter' # Desnecessaria de acordo com monetizacao
-  # s.dependency 'AppLovinMediationMaioAdapter' # Desnecessaria de acordo com monetizacao
+  s.dependency 'AppLovinMediationLineAdapter'
+  s.dependency 'AppLovinMediationMaioAdapter'
   s.dependency 'AppLovinMediationFacebookAdapter'
   s.dependency 'AppLovinMediationMintegralAdapter'
-  # s.dependency 'AppLovinMediationMyTargetAdapter' # Desnecessaria de acordo com monetizacao
+  s.dependency 'AppLovinMediationMyTargetAdapter'
   # s.dependency 'AppLovinMediationNendAdapter'  # Incompativel com o SFS2XAPIIOS, ambas implementam CreateDispatchTimer
-  # s.dependency 'AppLovinMediationOguryPresageAdapter' # Desnecessaria de acordo com monetizacao
+  s.dependency 'AppLovinMediationOguryPresageAdapter'
   s.dependency 'AppLovinMediationByteDanceAdapter'
   s.dependency 'AppLovinMediationSmaatoAdapter'
   s.dependency 'AppLovinMediationSnapAdapter'
@@ -51,5 +51,5 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationVerveAdapter'
   s.dependency 'AppLovinMediationVungleAdapter'
   s.dependency 'AppLovinMediationVerizonAdsAdapter'
-  # pod 'AppLovinMediationYandexAdapter' # Desnecessaria de acordo com monetizacao
+  s.dependency 'AppLovinMediationYandexAdapter'
 end
