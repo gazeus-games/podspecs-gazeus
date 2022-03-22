@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/44f8bee9-8202-4be2-8bdb-39f95f99d5fd/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/ad3a1eb3-9d75-4f06-bc64-befae0b8f81b/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   # DEBUG END
 
   s.dependency 'AppEngine', '>= 1.6.1'
-  s.dependency 'AppLovinSDK', '11.2.1'
+  s.dependency 'AppLovinSDK', '11.3.1'
   s.dependency 'AppLovinMediationAdColonyAdapter'
-  # s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter' # Problemas pra gerar executavel
-  # s.dependency 'AmazonPublisherServicesSDK' # Problemas pra gerar executavel
+  s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter'
+  s.dependency 'AmazonPublisherServicesSDK', '4.3.1' # Nao e a mais recente, mas e a unica compativel com o adapter
   s.dependency 'AppLovinMediationChartboostAdapter'
   s.dependency 'AppLovinMediationCriteoAdapter'
   s.dependency 'AppLovinMediationFyberAdapter'
