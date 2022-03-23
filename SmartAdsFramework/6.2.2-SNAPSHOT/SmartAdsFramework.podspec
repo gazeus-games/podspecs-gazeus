@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.2.2-SNAPSHOT/400b4a5c-a30d-4fb0-a3ce-22bc341b4a0f/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.2.2-SNAPSHOT/2c8aacf6-d6f7-4440-a0f7-6fef6ce1abfd/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
   # s.static_framework = true # LOCAL TEST
   s.dependency 'AppEngine'              ,'1.6.1-SNAPSHOT'
