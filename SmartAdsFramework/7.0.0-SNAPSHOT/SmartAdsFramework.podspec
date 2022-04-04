@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/1376a0be-6bd4-4066-bfbf-9117df13f6f6/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.0.0-SNAPSHOT/6ff49352-aa19-4675-a4a8-8991e2f085b9/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationMyTargetAdapter', '~> 5.15.0.2' # 24-03-2022
   # s.dependency 'AppLovinMediationNendAdapter', '~> 7.2.0.1'  # Incompativel com o SFS2XAPIIOS, ambas implementam CreateDispatchTimer # 24-03-2022
   s.dependency 'AppLovinMediationOguryPresageAdapter', '~> 2.6.1.0' # 24-03-2022
-  s.dependency 'AppLovinMediationByteDanceAdapter', '~> 4.3.0.2.3' # 24-03-2022
+  s.dependency 'AppLovinMediationByteDanceAdapter', '~> 4.3.0.5.0' # 24-03-2022
   s.dependency 'AppLovinMediationSmaatoAdapter', '~> 21.7.1.3' # 24-03-2022
   s.dependency 'AppLovinMediationSnapAdapter', '~> 2.0.0.1' # 24-03-2022
   s.dependency 'AppLovinMediationTapjoyAdapter', '~> 12.9.1.0' # 24-03-2022
