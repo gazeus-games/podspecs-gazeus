@@ -10,8 +10,9 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.2.2-SNAPSHOT/2c8aacf6-d6f7-4440-a0f7-6fef6ce1abfd/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/6.2.2-SNAPSHOT/ad24f1cb-9fd8-4ab1-b22a-b54126d21f9b/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework' # RELEASE
+  # s.static_framework = true # LOCAL TEST
   s.dependency 'AppEngine'              ,'>= 1.6.1'
   s.dependency 'AppLovinSDK'            ,'11.0.0'    # 08-12-21
   s.dependency 'CriteoPublisherSdk'     ,'4.5.0'     # 08-12-21
@@ -20,14 +21,12 @@ Pod::Spec.new do |s|
   s.dependency 'Google-Mobile-Ads-SDK'  ,'8.13.0'    # 08-12-21
   s.dependency 'HyBid'                  ,'2.10.0'    # 08-12-21
   s.dependency 'IronSourceSDK'          ,'7.1.14.0'  # 08-12-21
-  s.dependency 'mopub-ios-sdk'          ,'5.18.2'    # 08-12-21
   s.dependency 'UnityAds'               ,'3.7.5'     # 08-12-21
   s.dependency 'GoogleMobileAds-HyBid-Adapters'
   s.dependency 'GoogleMobileAdsMediationAppLovin'
   s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'GoogleMobileAdsMediationUnity'
   s.dependency 'GoogleMobileAdsMediationIronSource'
-  s.dependency 'GoogleMobileAdsMediationMoPub'
   s.dependency 'GoogleMobileAdsMediationAdColony'
   s.dependency 'GoogleMobileAdsMediationChartboost'
   s.dependency 'GoogleMobileAdsMediationTapjoy'
