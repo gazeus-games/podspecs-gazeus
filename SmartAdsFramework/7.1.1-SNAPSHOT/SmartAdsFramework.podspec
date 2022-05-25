@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.1.1-SNAPSHOT/4ee45a5b-764d-4c56-a6c5-f725e2efa2c5/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.1.1-SNAPSHOT/63f4e392-797a-4fd8-af93-f12ef4cae9c0/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -22,16 +22,16 @@ Pod::Spec.new do |s|
   #  s.source_files = 'SmartAdsFramework', 'SmartAdsFramework/**/*.{h,m}'
   # DEBUG END
 
-  s.dependency 'AppEngine', '>= 1.6.1'
-  s.dependency 'AppLovinSDK', '11.3.1'
+  s.dependency 'AppEngine', '1.6.3-SNAPSHOT'
+  s.dependency 'AppLovinSDK', '11.3.3'
   s.dependency 'AppLovinMediationAdColonyAdapter', '~> 4.8.0.0.0' # 24-03-2022
   s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter', '~> 4.4.1.0' # 24-03-2022
   s.dependency 'AmazonPublisherServicesSDK', '4.4.1' # 24-03-2022
   s.dependency 'AppLovinMediationChartboostAdapter', '~> 8.5.0.3' # 24-03-2022
   s.dependency 'AppLovinMediationCriteoAdapter', '~> 4.5.0.2' # 24-03-2022
   s.dependency 'AppLovinMediationFyberAdapter', '~> 8.1.3.2' # 24-03-2022
-  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '~> 9.1.0.0' # 24-03-2022
-  s.dependency 'AppLovinMediationGoogleAdapter', '~> 9.1.0.0' # 24-03-2022
+  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '~> 9.4.0.0' # 27-04-2022
+  s.dependency 'AppLovinMediationGoogleAdapter', '~> 9.4.0.0' # 27-04-2022
   s.dependency 'AppLovinMediationHyprMXAdapter', '~> 6.0.1.3' # 24-03-2022
   s.dependency 'AppLovinMediationInMobiAdapter', '~> 10.0.2.1' # 24-03-2022
   s.dependency 'AppLovinMediationIronSourceAdapter', '~> 7.2.1.0.2' # 24-03-2022
