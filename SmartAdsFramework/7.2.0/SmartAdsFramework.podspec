@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/7.2.0/689d1a73-f21f-4431-9b0d-ba00eb0be621/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Releases/7.2.0/96c91aca-ca1f-449a-8193-fcf5400f5f9d/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -35,11 +35,8 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationHyprMXAdapter', '~> 6.0.1.5' # 06-06-2022
   s.dependency 'AppLovinMediationInMobiAdapter', '~> 10.0.7.0' # 06-06-2022
   s.dependency 'AppLovinMediationIronSourceAdapter', '~> 7.2.2.1.0' # 28-06-2022
-  s.dependency 'AppLovinMediationLineAdapter', '~> 2.4.20220607.0' # 28-06-2022
-  s.dependency 'AppLovinMediationMaioAdapter', '~> 1.6.2.0' # 06-06-2022
   s.dependency 'AppLovinMediationFacebookAdapter', '~> 6.11.1.0' # 28-06-2022
   s.dependency 'AppLovinMediationMintegralAdapter', '~> 7.1.7.0.2' # 28-06-2022
-  s.dependency 'AppLovinMediationMyTargetAdapter', '~> 5.15.2.0' # 06-06-2022
   # s.dependency 'AppLovinMediationNendAdapter', '~> 7.2.0.1'  # Incompativel com o SFS2XAPIIOS, ambas implementam CreateDispatchTimer # 24-03-2022
   s.dependency 'AppLovinMediationOguryPresageAdapter', '~> 2.6.2.0' # 28-06-2022
   s.dependency 'AppLovinMediationByteDanceAdapter', '~> 4.5.2.4.1' # 28-06-2022
@@ -51,5 +48,4 @@ Pod::Spec.new do |s|
   s.dependency 'AppLovinMediationVerveAdapter', '~> 2.14.0.0' # 28-06-2022
   s.dependency 'AppLovinMediationVungleAdapter', '~> 6.11.0.2' # 06-06-2022
   s.dependency 'AppLovinMediationVerizonAdsAdapter', '~> 1.14.2.10' # 06-06-2022
-  s.dependency 'AppLovinMediationYandexAdapter', '~> 4.4.2.3' # 06-06-2022
 end
