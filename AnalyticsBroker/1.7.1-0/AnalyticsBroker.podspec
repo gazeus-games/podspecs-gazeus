@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.7.1-0/b251033a-76be-4983-9588-4ebefe2daadc/AnalyticsBroker.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.7.1-0/c78f9c6b-d2de-4e30-a43c-c6c279008abd/AnalyticsBroker.zip' }
   s.ios.vendored_frameworks = 'AnalyticsBroker/AnalyticsBroker.xcframework'
   # RELEASE END
 
