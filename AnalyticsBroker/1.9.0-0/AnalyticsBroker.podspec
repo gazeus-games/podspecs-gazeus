@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.author = { 'Name' => 'falves@gazeus.com' }
   s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2020 Gazeus. Todos os direitos reservados.' }
   s.platform = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.9.0-0/b2ff37f8-fdf4-49ca-9aa1-f414f11d1147/AnalyticsBroker.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.9.0-0/57bfe73a-95ed-469d-b019-f48c2283df1d/AnalyticsBroker.zip' }
   s.ios.vendored_frameworks = 'AnalyticsBroker/AnalyticsBroker.xcframework'
   # RELEASE END
 
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.framework = 'AdSupport'
   s.dependency 'AppEngine', '>= 1.6.0'
-  s.dependency 'Adjust', '4.29.6'
+  s.dependency 'Adjust', '4.33.3'
   s.dependency 'Firebase/Analytics'
 end
