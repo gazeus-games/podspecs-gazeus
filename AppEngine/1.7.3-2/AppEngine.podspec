@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.7.3-2/0ad62e85-6b06-421d-b0d4-0fc97a413379/AppEngine.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AppEngine/Snapshots/1.7.3-2/b0265168-74c8-4df0-abcd-23190b5ca488/AppEngine.zip' }
   s.ios.deployment_target = '13.0'
   s.dependency 'Firebase/Core', '10.6.0'
   s.dependency 'Firebase/Crashlytics', '10.6.0'
