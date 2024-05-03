@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.10.0-10/768d2fee-a249-4b73-aaca-eeab96301f13/AnalyticsBroker.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/AnalyticsBroker/Snapshots/1.10.0-10/c36b3e14-5066-4a1d-b1db-219baad4edd4/AnalyticsBroker.zip' }
   s.ios.vendored_frameworks = 'AnalyticsBroker/AnalyticsBroker.xcframework'
   # RELEASE END
 
