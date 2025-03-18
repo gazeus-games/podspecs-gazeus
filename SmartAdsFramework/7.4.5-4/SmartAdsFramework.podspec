@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # RELEASE START
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.4.5-4/ca535c64-d407-428f-9ac5-d0700d24b8c3/SmartAdsFramework.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/SmartAdsFramework/Snapshots/7.4.5-4/a95e7be7-e633-45db-99b3-aaf713cd473b/SmartAdsFramework.zip' }
   s.ios.vendored_frameworks = 'SmartAdsFramework/SmartAdsFramework.xcframework'
   # RELEASE END
 
@@ -22,28 +22,25 @@ Pod::Spec.new do |s|
   #  s.source_files = 'SmartAdsFramework', 'SmartAdsFramework/**/*.{h,m}'
   # DEBUG END
 
-  s.dependency 'AppEngine', '>= 1.7.4-1'
-  s.dependency 'AppLovinSDK', '12.0.0' # 17-11-2023
-  s.dependency 'AmazonPublisherServicesSDK', '4.7.7' # 17-11-2023
-  s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter', '~> 4.7.7.0' # 17-11-2023
-  s.dependency 'AppLovinMediationBidMachineAdapter', '~> 2.4.0.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationByteDanceAdapter', '~> 5.6.0.5.0' # 17-11-2023
-  s.dependency 'AppLovinMediationChartboostAdapter', '~> 9.5.1.0' # 17-11-2023
-  s.dependency 'AppLovinMediationCriteoAdapter', '~> 5.0.4.0' # 17-11-2023
-  s.dependency 'AppLovinMediationFacebookAdapter', '~> 6.14.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationFyberAdapter', '~> 8.2.4.0' # 17-11-2023
-  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '~> 10.13.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationGoogleAdapter', '~> 10.13.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationHyprMXAdapter', '~> 6.3.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationInMobiAdapter', '~> 10.6.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationIronSourceAdapter', '~> 7.5.1.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationMintegralAdapter', '~> 7.5.0.0.0' # 17-11-2023
-  # s.dependency 'AppLovinMediationNendAdapter', '~> 7.4.0.0'  # Incompativel com o SFS2XAPIIOS, ambas implementam CreateDispatchTimer # 17-11-2023
-  s.dependency 'AppLovinMediationOguryPresageAdapter', '~> 4.2.2.0' # 17-11-2023
-  s.dependency 'AppLovinMediationSmaatoAdapter', '~> 22.5.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationSnapAdapter', '~> 2.0.0.3' # 17-11-2023
-  s.dependency 'AppLovinMediationTencentGDTAdapter', '~> 4.14.50.0' # 17-11-2023
-  s.dependency 'AppLovinMediationUnityAdsAdapter', '~> 4.9.2.0' # 17-11-2023
-  s.dependency 'AppLovinMediationVerveAdapter', '~> 2.20.0.0' # 17-11-2023
-  s.dependency 'AppLovinMediationVungleAdapter', '~> 7.1.0.2' # 17-11-2023
+  s.dependency 'AppEngine', '>= 1.8.3-3'
+  s.dependency 'AppLovinSDK', '13.1.0' # 21-02-2025
+  s.dependency 'AmazonPublisherServicesSDK', '5.1.0' # 21-02-2025
+  s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter', '5.1.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationBidMachineAdapter', '3.2.0.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationBigoAdsAdapter', '4.6.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationByteDanceAdapter', '6.5.0.8.0' # 21-02-2025
+  s.dependency 'AppLovinMediationChartboostAdapter', '9.8.1.0' # 21-02-2025
+  s.dependency 'AppLovinMediationFacebookAdapter', '6.16.0.1' # 21-02-2025
+  s.dependency 'AppLovinMediationFyberAdapter', '8.3.5.0' # 21-02-2025
+  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '11.13.0.1' # 21-02-2025
+  s.dependency 'AppLovinMediationGoogleAdapter', '11.13.0.1' # 21-02-2025
+  s.dependency 'AppLovinMediationHyprMXAdapter', '6.4.1.0.2' # 21-02-2025
+  s.dependency 'AppLovinMediationInMobiAdapter', '10.8.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationIronSourceAdapter', '8.7.0.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationMintegralAdapter', '7.7.6.0.0' # 21-02-2025
+  s.dependency 'AppLovinMediationMolocoAdapter', '3.6.0.1' # 21-02-2025
+  s.dependency 'AppLovinMediationOguryPresageAdapter', '5.0.2.0' # 21-02-2025
+  s.dependency 'AppLovinMediationUnityAdsAdapter', '4.13.1.0' # 21-02-2025
+  s.dependency 'AppLovinMediationVerveAdapter', '3.1.4.0' # 21-02-2025
+  s.dependency 'AppLovinMediationVungleAdapter', '7.4.4.0' # 21-02-2025
 end
