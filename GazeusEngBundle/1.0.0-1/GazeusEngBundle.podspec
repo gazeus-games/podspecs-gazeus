@@ -1,0 +1,85 @@
+# frozen_string_literal: true
+
+Pod::Spec.new do |s|
+  s.name = 'GazeusEngBundle'
+  s.version = '1.0.0-1'
+  s.summary = 'AppEngine, AnalyticsBroker e SmartAds em um framework único.'
+  s.homepage = 'https://gitlab.gazeus.com/mobile/ios-libs/ios-framework-bundle'
+  s.author = { 'Name' => 'rfrota@gazeus.com' }
+  s.license = { type: 'Comercial', text: 'Desenvolvido e licenciado pela Gazeus. Copyright 2026 Gazeus. Todos os direitos reservados.' }
+  s.platform = :ios
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/GazeusEngBundle/Snapshots/1.0.0-1/1f877c39-d5ab-489f-9297-37efb44bb13a/GazeusEngBundle.zip' }
+  s.ios.deployment_target = '15.0'
+  s.ios.vendored_frameworks = 'GazeusEngBundle/GazeusEngBundle.xcframework'
+
+  # AppEngine
+  s.dependency 'Firebase/Core', '12.19.0'
+  s.dependency 'Firebase/Crashlytics', '12.19.0'
+  s.dependency 'Firebase/RemoteConfig', '12.19.0'
+  s.dependency 'Firebase/Performance', '12.19.0'
+  s.dependency 'SSZipArchive', '2.2.3'
+  s.dependency 'GoogleUtilities', '8.1.3'
+
+  # AnalyticsBroker
+  s.dependency 'AdjustSignature', '5.0.0'
+  s.dependency 'Firebase/Analytics', '12.19.0'
+
+  # SmartAds (copied from SmartAdsFramework.podspec of the source branch, without 'AppEngine')
+  s.dependency 'IronSourceAdQualitySDK', '9.5.1'
+  s.dependency 'AppHarbrSDK', '1.33.1'
+  s.dependency 'AppLovinSDK', '13.6.3'
+  s.dependency 'AmazonPublisherServicesSDK', '5.6.1'
+  s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter', '5.6.1.0'
+  s.dependency 'AppLovinMediationBidMachineAdapter', '3.7.1.0.0'
+  s.dependency 'AppLovinMediationBigoAdsAdapter', '5.3.0.0'
+  s.dependency 'AppLovinMediationByteDanceAdapter', '8.1.0.6.0'
+  s.dependency 'AppLovinMediationChartboostAdapter', '9.13.0.0'
+  s.dependency 'AppLovinMediationFacebookAdapter', '6.21.1.0'
+  s.dependency 'AppLovinMediationFyberAdapter', '8.4.7.0'
+  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '13.7.0.0'
+  s.dependency 'AppLovinMediationGoogleAdapter', '13.7.0.0'
+  s.dependency 'AppLovinMediationInMobiAdapter', '11.4.0.0'
+  s.dependency 'AppLovinMediationIronSourceAdapter', '9.5.0.0.0'
+  s.dependency 'AppLovinMediationMintegralAdapter', '8.1.5.0.0'
+  s.dependency 'AppLovinMediationMobileFuseAdapter', '1.11.1.0'
+  s.dependency 'AppLovinMediationMolocoAdapter', '4.8.0.0'
+  s.dependency 'AppLovinMediationOguryPresageAdapter', '5.2.3.0'
+  s.dependency 'AppLovinMediationSmaatoAdapter', '23.2.0.0'
+  s.dependency 'AppLovinMediationUnityAdsAdapter', '4.19.0.1'
+  s.dependency 'AppLovinMediationVerveAdapter', '3.9.0.0'
+  s.dependency 'AppLovinMediationVungleAdapter', '7.7.4.0'
+  s.dependency 'XMediatorObjC', '1.165.1.0'
+  s.dependency 'XMediatorAppLovin', '13.6.3.4'
+  s.dependency 'XMediatorAPS', '5.6.1.0'
+  s.dependency 'BigoADS', '5.3.0'
+  s.dependency 'ChartboostSDK', '9.13.0'
+  s.dependency 'XMediatorChartboost', '9.13.0.0'
+  s.dependency 'FBAudienceNetwork', '6.21.1'
+  s.dependency 'XMediatorFacebook', '6.21.1.0'
+  s.dependency 'Fyber_Marketplace_SDK', '8.4.7'
+  s.dependency 'XMediatorFyber', '8.4.7.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+  s.dependency 'XMediatorGoogleAds', '13.7.0.0'
+  s.dependency 'InMobiSDK', '11.4.0'
+  s.dependency 'XMediatorInMobi', '11.4.0.0'
+  s.dependency 'IronSourceSDK', '9.5.0.0'
+  s.dependency 'XMediatorIronSource', '9.5.0.0.1'
+  s.dependency 'MintegralAdSDK', '8.1.5'
+  s.dependency 'XMediatorMintegral', '8.1.5.0'
+  s.dependency 'MolocoSDKiOS', '4.8.0'
+  s.dependency 'XMediatorMoloco', '4.8.0.0'
+  s.dependency 'OgurySdk', '5.2.3'
+  s.dependency 'XMediatorOgury', '5.2.3.0'
+  s.dependency 'Ads-Global', '8.1.0.6'
+  s.dependency 'XMediatorPangle', '8.1.0.6.0'
+  s.dependency 'BidMachine', '3.7.1'
+  s.dependency 'XMediatorStack', '3.7.1.0'
+  s.dependency 'UnityAds', '4.19.0'
+  s.dependency 'XMediatorUnityAds', '4.19.0.1'
+  s.dependency 'HyBid', '3.9.0'
+  s.dependency 'VungleAds', '7.7.4'
+  s.dependency 'XMediatorVungle', '7.7.4.0'
+  s.dependency 'XMediator', '1.165.1'
+end
