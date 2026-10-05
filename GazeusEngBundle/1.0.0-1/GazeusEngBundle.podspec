@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/GazeusEngBundle/Snapshots/1.0.0-1/1f877c39-d5ab-489f-9297-37efb44bb13a/GazeusEngBundle.zip' }
+  s.source = { http: 'https://cocoapods-gazeus.s3.amazonaws.com/cocoapods-gazeus/GazeusEngBundle/Snapshots/1.0.0-1/493f470d-6771-424e-8840-5867f3e05787/GazeusEngBundle.zip' }
   s.ios.deployment_target = '15.0'
   s.ios.vendored_frameworks = 'GazeusEngBundle/GazeusEngBundle.xcframework'
 
